@@ -48,11 +48,11 @@ System.out.println("");
 
 - 配置环境
 
-![image-20221025163856883](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025163856883.png)
+![image-20221025163856883](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025163856883.png)
 
-![image-20221025163908705](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025163908705.png)
+![image-20221025163908705](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025163908705.png)
 
-![image-20221025163925491](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025163925491.png)
+![image-20221025163925491](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025163925491.png)
 
  教程：https://blog.csdn.net/u012660464/article/details/114113349
 
@@ -65,7 +65,7 @@ System.out.println("");
 
 - **修改配置文件的本地仓库地址**
 
-![image-20221025164037287](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025164037287.png)
+![image-20221025164037287](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025164037287.png)
 
 - **添加阿里云镜像**
 
@@ -82,7 +82,7 @@ System.out.println("");
   </mirror>
   ```
 
-  <img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20220609112753903.png" alt="image-20220609112753903" style="zoom:67%;" />
+  <img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20220609112753903.png" alt="image-20220609112753903" style="zoom:67%;" />
 
 ### 1.2.2 配置Tomcat运行项目
 
@@ -101,7 +101,7 @@ System.out.println("");
 
 > **打开 starup.bat**  路径： D:\program\Java\repository\apache-tomcat-9.0.43\bin\starup.bat
 >
-> <img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027104643131.png" alt="image-20221027104643131" style="zoom:50%;" />
+> <img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027104643131.png" alt="image-20221027104643131" style="zoom:50%;" />
 
 **关闭Tomcat**
 
@@ -119,11 +119,11 @@ System.out.println("");
 >
 > 更改编码方式   `java.util.logging.ConsoleHandler.encoding = GBK
 >
-> ![image-20221027105107007](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027105107007.png)
+> ![image-20221027105107007](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027105107007.png)
 
 **访问localhost:8080**
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027104717822.png" alt="image-20221027104717822" style="zoom:50%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027104717822.png" alt="image-20221027104717822" style="zoom:50%;" />
 
 
 
@@ -133,7 +133,7 @@ System.out.println("");
 
   conf/server.xml
 
-  ![image-20221027115519168](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027115519168.png)
+  ![image-20221027115519168](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027115519168.png)
 
 - 启动可能出现的问题
 
@@ -155,45 +155,45 @@ System.out.println("");
 
 - 项目结构
 
-![image-20221027120605660](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027120605660.png)
+![image-20221027120605660](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027120605660.png)
 
 - 创建Maven Web项目
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027121122418.png" alt="image-20221027121122418" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027121122418.png" alt="image-20221027121122418" style="zoom:80%;" />
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027121330176.png" alt="image-20221027121330176" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027121330176.png" alt="image-20221027121330176" style="zoom:80%;" />
 
 - 手动创建Java目录和resources目录
 
-![image-20221027122344023](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027122344023.png)
+![image-20221027122344023](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027122344023.png)
 
 **方法二：不使用骨架**
 
-![image-20221027122643438](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027122643438.png)
+![image-20221027122643438](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027122643438.png)
 
 #### IDEA中使用Tomcat
 
 - 添加配置
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027121701575.png" alt="image-20221027121701575" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027121701575.png" alt="image-20221027121701575" style="zoom:80%;" />
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027121744542.png" alt="image-20221027121744542" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027121744542.png" alt="image-20221027121744542" style="zoom:80%;" />
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027121823100.png" alt="image-20221027121823100" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027121823100.png" alt="image-20221027121823100" style="zoom:80%;" />
 
-![image-20221027121858025](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027121858025.png)
+![image-20221027121858025](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027121858025.png)
 
-![image-20221027122018174](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027122018174.png)
+![image-20221027122018174](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027122018174.png)
 
 - 修改默认访问路径
 
-  ![image-20221027123244931](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027123244931.png)
+  ![image-20221027123244931](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027123244931.png)
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027123340206.png" alt="image-20221027123340206" style="zoom: 67%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027123340206.png" alt="image-20221027123340206" style="zoom: 67%;" />
 
 ### 1.2.3 Tomcat Maven插件
 
-![image-20221027123942130](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027123942130.png)
+![image-20221027123942130](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027123942130.png)
 
 ### 1.2.4 pom.xml导入jar包
 
@@ -203,7 +203,7 @@ maven 仓库路径：`D:\program\Java\repository\apache-maven-3.6.3\lib`
 
 📝 [仓库服务 (aliyun.com)](https://developer.aliyun.com/mvn/search)   
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025154226588.png" alt="image-20221025154226588" style="zoom: 67%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025154226588.png" alt="image-20221025154226588" style="zoom: 67%;" />
 
 **方法二：使用IDEA自带的Maven**
 
@@ -211,7 +211,7 @@ maven 仓库路径：`D:\program\Java\repository\apache-maven-3.6.3\lib`
 
 ### 1.2.5 导入其他Maven项目
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025170823282.png" alt="image-20221025170823282" style="zoom:67%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025170823282.png" alt="image-20221025170823282" style="zoom:67%;" />
 
 # 知识点
 
@@ -237,7 +237,7 @@ maven 仓库路径：`D:\program\Java\repository\apache-maven-3.6.3\lib`
 
   同一个声明周期，执行后边的命令，前边所有的命令都会自动执行
 
-  ![image-20221025165336288](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025165336288.png)
+  ![image-20221025165336288](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025165336288.png)
 
 ## 3、Maven项目依赖范围
 
@@ -281,7 +281,7 @@ maven 仓库路径：`D:\program\Java\repository\apache-maven-3.6.3\lib`
 
 ## Servlet简介&快速入门
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027133724217.png" alt="image-20221027133724217" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027133724217.png" alt="image-20221027133724217" style="zoom:80%;" />
 
 基本概念：
 
@@ -463,9 +463,9 @@ post 请求：
 </html>
 ```
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027214455068.png" alt="image-20221027214455068" style="zoom: 80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027214455068.png" alt="image-20221027214455068" style="zoom: 80%;" />
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027214946643.png" alt="image-20221027214946643" style="zoom:67%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027214946643.png" alt="image-20221027214946643" style="zoom:67%;" />
 
 ### 获取不同的请求方法
 
@@ -621,7 +621,7 @@ public class RequestDemo extends HttpServlet {
 
 访问 http://localhost:8080/FromZerotoExpert/requestdemo?name=蔡徐坤
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027230103890.png" alt="image-20221027230103890" style="zoom:67%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027230103890.png" alt="image-20221027230103890" style="zoom:67%;" />
 
 
 
@@ -745,7 +745,7 @@ requestdemo2.html
 </html>
 ```
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221027235849697.png" alt="image-20221027235849697" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221027235849697.png" alt="image-20221027235849697" style="zoom:80%;" />
 
 控制台输出：username=theo&password=123
 
@@ -820,11 +820,11 @@ requestdemo3.html
 
 get请求方式，提交表单后浏览器链接显示用户信息
 
-![image-20221028161312894](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221028161312894.png)![image-20221028161326690](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221028161326690.png)
+![image-20221028161312894](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221028161312894.png)![image-20221028161326690](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221028161326690.png)
 
 post请求方式，浏览器不显示用户信息
 
-![image-20221028161616077](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221028161616077.png)
+![image-20221028161616077](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221028161616077.png)
 
 ### 解决请求参数中文乱码
 
@@ -838,7 +838,7 @@ request.setCharacterEncoding("UTF-8");
 
 GET：
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221028202403274.png" alt="image-20221028202403274" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221028202403274.png" alt="image-20221028202403274" style="zoom:80%;" />
 
 URL编码：
 
@@ -1130,11 +1130,11 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 
 ## IDEA模板创建Servlet
 
-![image-20221028162643921](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221028162643921.png)
+![image-20221028162643921](https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221028162643921.png)
 
 修改IDEA里的模板
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221028162938235.png" alt="image-20221028162938235" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221028162938235.png" alt="image-20221028162938235" style="zoom:80%;" />
 
 原始模板：
 
@@ -1212,7 +1212,7 @@ public class ${Class_Name} extends HttpServlet {
 
 **第一步，修改编码方式为UTF-8**
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025103829413.png" alt="image-20221025103829413" style="zoom: 67%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025103829413.png" alt="image-20221025103829413" style="zoom: 67%;" />
 
 **2、jsp页面中添加（重要）**
 
@@ -1220,7 +1220,7 @@ public class ${Class_Name} extends HttpServlet {
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8" %>
 ```
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025104114682.png" alt="image-20221025104114682" style="zoom:80%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025104114682.png" alt="image-20221025104114682" style="zoom:80%;" />
 
 ## 2、无法解析jar包
 
@@ -1228,8 +1228,8 @@ public class ${Class_Name} extends HttpServlet {
 
 取消勾选
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025132043499.png" alt="image-20221025132043499" style="zoom: 50%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025132043499.png" alt="image-20221025132043499" style="zoom: 50%;" />
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025132421049.png" alt="image-20221025132421049" style="zoom: 50%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025132421049.png" alt="image-20221025132421049" style="zoom: 50%;" />
 
-<img src="C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20221025132540070.png" alt="image-20221025132540070" style="zoom:67%;" />
+<img src="https://gitee.com/qshzzt/picture/raw/main/FromZerotoExpert/ASimpleWebProject/image-20221025132540070.png" alt="image-20221025132540070" style="zoom:67%;" />
